@@ -1,0 +1,17 @@
+.header-wrap {
+    position: relative;
+    line-height: 48px;
+    background-color: lightskyblue;
+}
+
+.title {
+    margin: 0px 41%;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.left-button {
+    float: right;
+    margin-right: 15px;
+    margin-top: -47px;
+}

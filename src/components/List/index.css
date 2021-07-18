@@ -1,0 +1,25 @@
+
+.list-group-item {
+    height: 40px;
+}
+.list-group-item::after {
+    content: '';
+    clear: both;
+}
+.left-content{
+    width: 55%;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    text-overflow: ellipsis;
+}
+.right-button{
+    float: right;
+    margin: -7px;
+}
+
+.check-box{
+    float: left;
+    margin-left: -10px;
+    margin-right: 5px;
+}
