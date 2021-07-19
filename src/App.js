@@ -4,8 +4,10 @@ import './App.css';
 import Header from './components/Header/index'
 import AddInput from './components/AddInput/index'
 import List from './components/List/index'
+import Summary from './components/Summary/index'
 import ViewModal from './components/Modal/ViewModal/index'
 import EditModal from './components/Modal/EditModal/index'
+
 
 
 function App() {
@@ -86,8 +88,10 @@ function App() {
               edit={editModelShow}
               deleteData={deleteDataById}
               changeCompleted={changeStatus}/>
+          <Summary data={list} />
           <ViewModal isShowModal={ isViewModalShow } data={checkData} closeModal={()=> setViewModalShow(false)}/>
           <EditModal isShowModal={ isEditModalShow } changeData={changeList} data={checkData} />
+          
       </Fragment>
   );
 }

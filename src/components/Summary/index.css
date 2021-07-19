@@ -1,0 +1,24 @@
+.summary-wrap {
+  display: flex;
+  flex: 1 1;
+  justify-content: flex-end;
+  background-color: yellowgreen;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.summary-item {
+  margin: auto 30px;
+
+}
+
+span {
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 5px;
+}
