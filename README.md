@@ -17,6 +17,9 @@ React Hooks + bootstrap + localStorage
 1.  执行 yarn install 或者 npm install（推荐，yarn安装有可能运行不起来）（前提是本地有node环境）
 2.  执行 npm run start即可预览
 
+### 预览地址
+[代办事项](https://zkcpps.github.io/mytodo/)
+
 #### 截图
 
 ![待办列表](https://images.gitee.com/uploads/images/2021/0320/115110_332e3176_4912892.png "屏幕截图.png")
